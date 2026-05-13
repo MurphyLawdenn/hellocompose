@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HelloCompose</string>
+    <string name="student_name">Студент</string>
+    <string name="world_name">Світ</string>
+    <string name="greeting_template">Привіт, %1$s!</string>
+    <string name="button_text">Натисни</string>
+</resources>
