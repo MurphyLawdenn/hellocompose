@@ -1,6 +1,6 @@
 # Hello Compose
 
-![Android CI](https://github.com/OWNER/REPO/actions/workflows/android-ci.yml/badge.svg)
+![Android CI](https://github.com/MurphyLawdenn/hellocompose/actions/workflows/android-ci.yml/badge.svg?branch=develop)
 
 Навчальний приклад використання Jetpack Compose — лабораторна робота №1 з дисципліни «Розробка мобільних застосунків».
 
@@ -11,14 +11,31 @@
 - обробку подій (натискання кнопки)
 - Material 3 темізацію
 
+## Скріншоти
+<p align="center">
+  <img src="screenshots/app_main.png" width="300" title="Головний екран">
+</p>
+
 ## Як запустити
-1. Встановіть Android Studio та SDK (API 26+).
+1. Встановіть Android Studio (версия Hedgehog або новіша).
 2. Клонуйте репозиторій:
    ```bash
-   git clone https://github.com/OWNER/REPO.git
-   cd REPO
+   git clone https://github.com/MurphyLawdenn/hellocompose.git
+   cd hellocompose
    ```
-3. Відкрийте проект у Android Studio → дочекайтеся Gradle Sync → Run на AVD або реальному пристрої.
+3. Відкрийте проект у Android Studio.
+4. Дочекайтеся синхронізації Gradle.
+5. Запустіть додаток на эмуляторі або реальному пристрої через кнопку **Run** або командою:
+   ```bash
+   ./gradlew assembleDebug
+   ```
+
+## Перевірка проекту
+Для запуску лінтера та тестів використовуйте:
+```bash
+./gradlew lintDebug
+./gradlew test
+```
 
 ## Структура проекту
 ```
