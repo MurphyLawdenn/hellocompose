@@ -13,7 +13,12 @@
 
 ## Скріншоти
 <p align="center">
-  <img src="screenshots/app_main.png" width="300" title="Головний екран">
+  <img src="screenshots/app_main.png" width="400" alt="Початковий стан">
+  <img src="screenshots/app_after_click.png" width="400" alt="Стан після натискання">
+</p>
+<p align="center">
+  <img src="screenshots/app_dark.png" width="400" alt="Темна тема">
+  <img src="screenshots/app_studio.png" width="400" alt="Android Studio Preview">
 </p>
 
 ## Як запустити
