@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
             HelloComposeTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
+                    color = MaterialTheme.colorScheme.background,
                 ) {
                     HelloComposeApp()
                 }
@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun HelloComposeApp() {
     // Используем Boolean для переключения состояния, это чище
-    var isWorld by remember { mutableStateOf(false) }
+    var isWorld by remember { mutableStateOf(value = false) }
     
     val studentName = stringResource(id = R.string.student_name)
     val worldName = stringResource(id = R.string.world_name)
